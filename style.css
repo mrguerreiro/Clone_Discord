@@ -1,16 +1,22 @@
 body{
-    display: grid;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
     display:flex ;
     flex-direction: column;
     max-width: 100%;
-    background-image: url('Header Background.png') ;
+    background-image: url('images/Header Background.png');
     background-size: cover;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 h1{
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
@@ -19,27 +25,305 @@ h1{
     text-align: center;
 }
 
-h2{font-family: Open Sans;
-    font-size: 2rem;
-    text-align: left;
-    
-
-}
 p{
     color:rgba(255, 255, 255, 1) ;
     text-align: center;
+
 }
 
+h1, h2, p{
+    padding: 0 20px;
+}
 ul {
     display: flex;
     text-align: center;
     gap: 16px;
     align-self: center;
     list-style-type: none;
-
 }
 
 .primeira{
     display: flex;
-    max-width: 100%;
+    justify-content: center;
+    width: 100%;
+    height: auto;   
+}
+
+.primeira h2{
+    font-family: Open Sans;
+    font-size: 2rem;
+    text-align: left;
+    width: 329px;
+    height: 270px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.primeira p{
+    color: rgb(38, 38, 39);
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 348px;
+    height: 88px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+}
+
+.primeira img{
+    width: 607px;
+    height: 394px;
+    gap: 0px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 0px;
+    gap: 0px;
+    opacity: 0px;   
+}
+
+.segunda{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 30px; 
+    background: rgba(246, 246, 246, 1);
+  
+}
+
+.segunda h2{
+    font-family: Open Sans;
+    font-size: 2rem;
+    text-align: left;
+    width: 329px;
+    height: 270px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.segunda p{
+    color: rgb(38, 38, 39);
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 348px;
+    height: 88px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+}
+
+.segunda img{
+    width: 607px;
+    height: 394px;
+    gap: 0px;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 0px;
+    gap: 0px;
+    opacity: 0px;  
+    margin-left: 20px; 
+}
+
+.terceira{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;   
+}
+
+.terceira h2{
+    font-family: Open Sans;
+    font-size: 2rem;
+    text-align: left;
+    width: 329px;
+    height: 270px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.terceira p{
+    color: rgb(38, 38, 39);
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 348px;
+    height: 88px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+}
+
+.terceira img{
+    width: 607px;
+    height: 394px;
+    gap: 0px;
+}
+
+.texto3{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 0px;
+    gap: 0px;
+    opacity: 0px;   
+}
+
+.quarta{
+    display: flex;
+    flex-direction: column;
+    background: rgba(246, 246, 246, 1);
+    width: auto;
+    height: auto;
+    top: 1909px;
+    padding: 40px 0px 40px 0px;
+    gap: 16px;
+    opacity: 0px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.quarta h2{
+    width: 608px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Luckiest Guy;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+.quarta p{
+    color: rgb(38, 38, 39);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 348px;
+    height: 88px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+}
+
+.quarta img{
+    width: 784px;
+    height: 508px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+@media (max-width: 430px) {
+    header {
+        background-image: url('images/Header Background.png');
+        background-size: cover;
+        padding: 20px 0;
+    }
+
+    .primeira,.terceira, .quarta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+        top: 505px;
+        padding: 0px 24px 350px 24px;
+        gap: 27px;
+        opacity: 0px;
+    }
+
+    .segunda{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 24px 350px 24px;
+    }
+    .texto, .texto2, .texto3 {
+        text-align: center;
+        width: 90%; /* Ajusta a largura para a maioria dos textos */
+        margin: 0 auto; /* Centraliza */
+        opacity: 1; /* Torna visível */
+    }
+
+    .primeira img, .segunda img, .terceira img, .quarta img {
+        width: 90%; /* Reduz a largura da imagem para se ajustar à tela */
+    }
+
+    ul {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+
+    h1 {
+        font-size: 24px; /* Reduz o tamanho da fonte do h1 */
+    }
+
+
+
+    h2 {
+        width: 370px;
+        height: 99px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32.68px;
+        text-align: left;
+    }
+    .quarta h2{
+        width: auto;
+    }
+
+    p {
+        font-size: 14px; /* Reduz o tamanho da fonte dos parágrafos */
+    }
+    ul li {
+        margin: 10px 0; /* Adiciona margem vertical para separar os botões */
+    }
+    
+    img[alt^="Botão"] {
+        width: 80%; /* Reduz a largura dos botões */
+        cursor: pointer; /* Estilo do cursor para indicar clicabilidade */
+    }
 }
